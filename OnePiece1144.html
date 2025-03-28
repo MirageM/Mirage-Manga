@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        background-color: #000;
+        color: #000;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gallery-column" id="previousGallery">
+      <button onclick="goToPreviousPage()">Previous</button>
+    </div>
+    <div class="gallery-column" id="nextGallery">
+      <button onclick="goToNextPage()">Next</button>
+    </div>
+
+    <!-- Insert your image URLs here -->
+    <!-- Command + Shift + L without highlighting (insert multi-cursors)-->
+    <!-- Option + Shift + Down Arrow (duplicate lines)-->
+    <img src="1144/1.webp" alt="Image 1" />
+    <img src="1144/2.webp" alt="Image 1" />
+    <img src="1144/3.webp" alt="Image 1" />
+    <img src="1144/4.webp" alt="Image 1" />
+    <img src="1144/5.webp" alt="Image 1" />
+    <img src="1144/6.webp" alt="Image 1" />
+    <img src="1144/7.webp" alt="Image 1" />
+    <img src="1144/8.webp" alt="Image 1" />
+    <img src="1144/9.webp" alt="Image 1" />
+    <img src="1144/10.webp" alt="Image 1" />
+    <img src="1144/11.webp" alt="Image 1" />
+    <img src="1144/12.webp" alt="Image 1" />
+    <img src="1144/13.webp" alt="Image 1" />
+    <img src="1144/14.webp" alt="Image 1" />
+    <img src="1144/15.webp" alt="Image 1" />
+
+    <!-- Add more images as needed -->
+
+    <script>
+      function goToPreviousPage() {
+        // Redirect to the previous page containing previous images
+        window.location.href = "OnePiece1143.html";
+      }
+      function goToNextPage() {
+        //Redirect to the next page containing next images
+        window.location.href = "OnePiece1145.html";
+      }
+    </script>
+  </body>
+</html>
