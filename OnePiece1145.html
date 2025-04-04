@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        background-color: #000;
+        color: #000;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gallery-column" id="previousGallery">
+      <button onclick="goToPreviousPage()">Previous</button>
+    </div>
+    <div class="gallery-column" id="nextGallery">
+      <button onclick="goToNextPage()">Next</button>
+    </div>
+
+    <!-- Insert your image URLs here -->
+    <!-- Command + Shift + L without highlighting (insert multi-cursors)-->
+    <!-- Option + Shift + Down Arrow (duplicate lines)-->
+    <img src="1145/1.webp" alt="Image 1" />
+    <img src="1145/2.webp" alt="Image 1" />
+    <img src="1145/3.webp" alt="Image 1" />
+    <img src="1145/4.webp" alt="Image 1" />
+    <img src="1145/5.webp" alt="Image 1" />
+    <img src="1145/6.webp" alt="Image 1" />
+    <img src="1145/7.webp" alt="Image 1" />
+    <img src="1145/8.webp" alt="Image 1" />
+    <img src="1145/9.webp" alt="Image 1" />
+    <img src="1145/10.webp" alt="Image 1" />
+    <img src="1145/11.webp" alt="Image 1" />
+    <img src="1145/12.webp" alt="Image 1" />
+    <img src="1145/13.webp" alt="Image 1" />
+    <img src="1145/14.webp" alt="Image 1" />
+    <img src="1145/15.webp" alt="Image 1" />
+    <img src="1145/16.webp" alt="Image 1" />
+
+    <!-- Add more images as needed -->
+
+    <script>
+      function goToPreviousPage() {
+        // Redirect to the previous page containing previous images
+        window.location.href = "OnePiece1144.html";
+      }
+      function goToNextPage() {
+        //Redirect to the next page containing next images
+        window.location.href = "OnePiece1146.html";
+      }
+    </script>
+  </body>
+</html>
