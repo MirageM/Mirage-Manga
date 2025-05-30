@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        background-color: #000;
+        color: #000;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gallery-column" id="previousGallery">
+      <button onclick="goToPreviousPage()">Previous</button>
+    </div>
+    <div class="gallery-column" id="nextGallery">
+      <button onclick="goToNextPage()">Next</button>
+    </div>
+
+    <!-- Insert your image URLs here -->
+    <!-- Command + Shift + L without highlighting (insert multi-cursors)-->
+    <!-- Option + Shift + Down Arrow (duplicate lines)-->
+    <img src="1150/1.png" alt="Image 1" />
+    <img src="1150/2.png" alt="Image 1" />
+    <img src="1150/3.png" alt="Image 1" />
+    <img src="1150/4.png" alt="Image 1" />
+    <img src="1150/5.png" alt="Image 1" />
+    <img src="1150/6.png" alt="Image 1" />
+    <img src="1150/7.png" alt="Image 1" />
+    <img src="1150/8.png" alt="Image 1" />
+    <img src="1150/9.png" alt="Image 1" />
+    <img src="1150/10.png" alt="Image 1" />
+    <img src="1150/11.png" alt="Image 1" />
+    <img src="1150/12.png" alt="Image 1" />
+
+    <!-- Add more images as needed -->
+
+    <script>
+      function goToPreviousPage() {
+        // Redirect to the previous page containing previous images
+        window.location.href = "OnePiece1149.html";
+      }
+      function goToNextPage() {
+        //Redirect to the next page containing next images
+        window.location.href = "OnePiece1151.html";
+      }
+    </script>
+  </body>
+</html>
